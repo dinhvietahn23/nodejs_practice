@@ -1,4 +1,4 @@
-import express from 'Express'
+import express from 'express'
 import { addVideo, deleteVideo, getByTag, getVideo, random, search, sub, trend, updateVideo } from '../controllers/Video.js'
 import { verifyToken } from '../verifyToken.js'
 

@@ -1,4 +1,4 @@
-import express from 'Express'
+import express from 'express'
 import { addComment, deleteComment, getComments } from '../controllers/Comment.js'
 import {verifyToken} from '../verifyToken.js'
 
